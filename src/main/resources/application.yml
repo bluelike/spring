@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: springBoot2
+  datasource:
+    url: jdbc:mysql://localhost:3306/zufang
+    username: root
+    password: zhaolong
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+server:
+  port: 8888
